@@ -5,6 +5,13 @@ public class User {
 	private String userName;
 	private String UserEmail;
 	private String password;
+	private int contact;
+	public int getContact() {
+		return contact;
+	}
+	public void setContact(int contact) {
+		this.contact = contact;
+	}
 	public int getUserId() {
 		return userId;
 	}
@@ -30,5 +37,5 @@ public class User {
 		this.password = password;
 	}
 
-	
+
 }
